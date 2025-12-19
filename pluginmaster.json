@@ -1,1 +1,48 @@
-[]
+[
+    {
+        "Author": "The Combat Reborn Team",
+        "Name": "Bossmod Reborn",
+        "Punchline": "Don't fail at raid mechanics anymore",
+        "Description": "Boss mod.",
+        "InternalName": "BossModReborn",
+        "AssemblyVersion": "7.4.0.2",
+        "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 14,
+        "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
+        "ImageUrls": [
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
+        ],
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1766130968"
+    },
+    {
+        "Author": "ocealot",
+        "Name": "JobBars",
+        "Punchline": "Extra job gauges",
+        "Description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
+        "InternalName": "JobBars",
+        "AssemblyVersion": "1.3.2.2",
+        "RepoUrl": "https://github.com/0ceal0t/JobBars",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "UI",
+            "Bars"
+        ],
+        "DalamudApiLevel": 14,
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1766130968"
+    }
+]
