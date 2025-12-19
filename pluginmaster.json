@@ -1,5 +1,28 @@
 [
     {
+        "Author": "UnknownX, Taurenkey",
+        "Name": "ReActionEx",
+        "Punchline": "QoL for the battle system.",
+        "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
+        "Changelog": "- Add new target stacks.",
+        "InternalName": "ReActionEx",
+        "AssemblyVersion": "1.0.0.9",
+        "RepoUrl": "https://puni.sh/api/repository/taurenkey",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 14,
+        "IconUrl": "",
+        "ImageUrls": [
+            ""
+        ],
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1766131947"
+    },
+    {
         "Author": "The Combat Reborn Team",
         "Name": "Bossmod Reborn",
         "Punchline": "Don't fail at raid mechanics anymore",
@@ -21,7 +44,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766131321"
+        "LastUpdate": "1766131947"
     },
     {
         "Author": "ocealot",
@@ -43,6 +66,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766131321"
+        "LastUpdate": "1766131947"
     }
 ]
