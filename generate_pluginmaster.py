@@ -5,7 +5,7 @@ from sys import argv
 from os.path import getmtime
 from zipfile import ZipFile, ZIP_DEFLATED
 
-BRANCH = os.environ['GITHUB_REF'].split('refs/heads/')[-1]
+BRANCH = os.environ.get('GITHUB_REF', 'refs/heads/master').split('refs/heads/')[-1]
 DOWNLOAD_URL = 'https://github.com/44451516-ff14/DalamudPlugins/raw/{branch}/plugins/{plugin_name}/latest.zip'
 
 DEFAULTS = {
@@ -56,8 +56,8 @@ def extract_manifests():
     for dirpath, dirnames, filenames in os.walk('./plugins'):
         if len(filenames) == 0 or 'latest.zip' not in filenames:
             continue
-        plugin_name = dirpath.split('/')[-1]
-        latest_zip = f'{dirpath}/latest.zip'
+        plugin_name = os.path.basename(dirpath)
+        latest_zip = os.path.join(dirpath, 'latest.zip')
         with ZipFile(latest_zip) as z:
             manifest = json.loads(z.read(f'{plugin_name}.json').decode('utf-8'))
             manifests.append(manifest)
@@ -92,7 +92,7 @@ def last_update():
         master = json.load(f)
 
     for plugin in master:
-        latest = f'plugins/{plugin["InternalName"]}/latest.zip'
+        latest = os.path.join('plugins', plugin["InternalName"], 'latest.zip')
         modified = int(getmtime(latest))
 
         if 'LastUpdate' not in plugin or modified != int(plugin['LastUpdate']):
