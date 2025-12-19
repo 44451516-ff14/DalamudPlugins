@@ -2,7 +2,7 @@
   "Author": "UnknownX, Taurenkey",
   "Name": "ReActionEx",
   "InternalName": "ReActionEx",
-  "AssemblyVersion": "1.0.0.9",
+  "AssemblyVersion": "1.0.1.0",
   "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://puni.sh/api/repository/taurenkey",
