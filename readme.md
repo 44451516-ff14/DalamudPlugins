@@ -1,6 +1,6 @@
 # DalamudPlugins
 ## Repo url
-```https://github.com/44451516-ff14/DalamudPlugins/raw/main/pluginmaster.json```
+```https://raw.githubusercontent.com/44451516-ff14/DalamudPlugins/refs/heads/master/pluginmaster.json```
 ## Plugins
 
 | Plugin name         | Description           |
