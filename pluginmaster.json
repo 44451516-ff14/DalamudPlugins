@@ -6,7 +6,7 @@
         "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
         "Changelog": "- Add new target stacks.",
         "InternalName": "ReActionEx",
-        "AssemblyVersion": "1.0.0.9",
+        "AssemblyVersion": "1.0.1.0",
         "RepoUrl": "https://puni.sh/api/repository/taurenkey",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
@@ -20,7 +20,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766131947"
+        "LastUpdate": "1766132938"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -44,7 +44,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766131947"
+        "LastUpdate": "1766132938"
     },
     {
         "Author": "ocealot",
@@ -66,6 +66,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766131947"
+        "LastUpdate": "1766132938"
     }
 ]
