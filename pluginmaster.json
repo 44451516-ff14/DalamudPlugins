@@ -20,7 +20,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766133688"
+        "LastUpdate": "1766230931"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -44,7 +44,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766133688"
+        "LastUpdate": "1766230931"
     },
     {
         "Author": "ocealot",
@@ -52,7 +52,7 @@
         "Punchline": "Extra job gauges",
         "Description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
         "InternalName": "JobBars",
-        "AssemblyVersion": "1.3.2.2",
+        "AssemblyVersion": "1.4.0.0",
         "RepoUrl": "https://github.com/0ceal0t/JobBars",
         "ApplicableVersion": "any",
         "Tags": [
@@ -66,6 +66,28 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766133688"
+        "LastUpdate": "1766230931"
+    },
+    {
+        "Author": "Anna, Maintained by Caraxi",
+        "Name": "Peeping Tom",
+        "Punchline": "Shows who is currently or was previously targeting you.",
+        "Description": "Shows who is currently or was previously targeting you.",
+        "InternalName": "PeepingTom",
+        "AssemblyVersion": "1.8.0",
+        "RepoUrl": "https://github.com/Caraxi/PeepingTom",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "targeting",
+            "utility"
+        ],
+        "DalamudApiLevel": 14,
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1766230931"
     }
 ]
