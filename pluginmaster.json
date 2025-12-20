@@ -20,7 +20,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766236619"
+        "LastUpdate": "1766245386"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -44,7 +44,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766236619"
+        "LastUpdate": "1766245386"
     },
     {
         "Author": "ocealot",
@@ -52,7 +52,7 @@
         "Punchline": "Extra job gauges",
         "Description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
         "InternalName": "JobBars",
-        "AssemblyVersion": "1.4.0.1",
+        "AssemblyVersion": "1.4.0.2",
         "RepoUrl": "https://github.com/0ceal0t/JobBars",
         "ApplicableVersion": "any",
         "Tags": [
@@ -66,7 +66,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766236619"
+        "LastUpdate": "1766245386"
     },
     {
         "Author": "Anna, Maintained by Caraxi",
@@ -88,6 +88,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766236619"
+        "LastUpdate": "1766245386"
     }
 ]
