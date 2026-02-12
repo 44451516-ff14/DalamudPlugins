@@ -18,7 +18,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     },
     {
         "Author": "veyn",
@@ -26,7 +26,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "A bunch of utilities to simplify bosses.",
         "InternalName": "BossMod",
-        "AssemblyVersion": "1.0.0.17",
+        "AssemblyVersion": "1.0.0.19",
         "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
@@ -42,7 +42,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     },
     {
         "Author": "UnknownX, Taurenkey",
@@ -65,7 +65,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -89,7 +89,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     },
     {
         "Author": "ocealot",
@@ -111,7 +111,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     },
     {
         "Author": "Anna, Maintained by Caraxi",
@@ -133,6 +133,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1770340616"
+        "LastUpdate": "1770857687"
     }
 ]
