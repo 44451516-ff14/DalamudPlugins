@@ -1,24 +1,70 @@
 [
     {
-        "Author": "shdwp, Avaflow, abashby, nebel",
-        "Name": "Party Icons",
-        "Punchline": "Replace names with job icons, raid role positions and more!",
-        "Description": "PartyIcons plugin",
-        "InternalName": "PartyIcons",
-        "AssemblyVersion": "1.2.3.2",
-        "RepoUrl": "https://github.com/nebel/xivPartyIcons",
+        "Author": "ocealot",
+        "Name": "JobBars",
+        "Punchline": "Extra job gauges",
+        "Description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
+        "InternalName": "JobBars",
+        "AssemblyVersion": "1.4.0.6",
+        "RepoUrl": "https://github.com/0ceal0t/JobBars",
         "ApplicableVersion": "any",
         "Tags": [
-            "UI"
+            "UI",
+            "Bars"
         ],
         "DalamudApiLevel": 14,
-        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1771983083"
+        "LastUpdate": "1772616870"
+    },
+    {
+        "Author": "Anna, Maintained by Caraxi",
+        "Name": "Peeping Tom",
+        "Punchline": "Shows who is currently or was previously targeting you.",
+        "Description": "Shows who is currently or was previously targeting you.",
+        "InternalName": "PeepingTom",
+        "AssemblyVersion": "1.8.0",
+        "RepoUrl": "https://github.com/Caraxi/PeepingTom",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "targeting",
+            "utility"
+        ],
+        "DalamudApiLevel": 14,
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1772616870"
+    },
+    {
+        "Author": "UnknownX, Taurenkey",
+        "Name": "ReActionEx",
+        "Punchline": "QoL for the battle system.",
+        "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
+        "Changelog": "- Add new target stacks.",
+        "InternalName": "ReActionEx",
+        "AssemblyVersion": "1.0.1.0",
+        "RepoUrl": "https://puni.sh/api/repository/taurenkey",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 14,
+        "IconUrl": "",
+        "ImageUrls": [
+            ""
+        ],
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1772616870"
     },
     {
         "Author": "veyn",
@@ -42,30 +88,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1771983083"
-    },
-    {
-        "Author": "UnknownX, Taurenkey",
-        "Name": "ReActionEx",
-        "Punchline": "QoL for the battle system.",
-        "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
-        "Changelog": "- Add new target stacks.",
-        "InternalName": "ReActionEx",
-        "AssemblyVersion": "1.0.1.0",
-        "RepoUrl": "https://puni.sh/api/repository/taurenkey",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 14,
-        "IconUrl": "",
-        "ImageUrls": [
-            ""
-        ],
-        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1771983083"
+        "LastUpdate": "1772616870"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -73,7 +96,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "Boss mod.",
         "InternalName": "BossModReborn",
-        "AssemblyVersion": "7.4.1.11",
+        "AssemblyVersion": "7.4.1.12",
         "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 14,
@@ -89,50 +112,27 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1771983083"
+        "LastUpdate": "1772616870"
     },
     {
-        "Author": "ocealot",
-        "Name": "JobBars",
-        "Punchline": "Extra job gauges",
-        "Description": "Additional job gauges, party buff timers, mitigation trackers, and more. Icon by PAPACHIN",
-        "InternalName": "JobBars",
-        "AssemblyVersion": "1.4.0.6",
-        "RepoUrl": "https://github.com/0ceal0t/JobBars",
+        "Author": "shdwp, Avaflow, abashby, nebel",
+        "Name": "Party Icons",
+        "Punchline": "Replace names with job icons, raid role positions and more!",
+        "Description": "PartyIcons plugin",
+        "InternalName": "PartyIcons",
+        "AssemblyVersion": "1.2.3.2",
+        "RepoUrl": "https://github.com/nebel/xivPartyIcons",
         "ApplicableVersion": "any",
         "Tags": [
-            "UI",
-            "Bars"
+            "UI"
         ],
         "DalamudApiLevel": 14,
-        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
+        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1771983083"
-    },
-    {
-        "Author": "Anna, Maintained by Caraxi",
-        "Name": "Peeping Tom",
-        "Punchline": "Shows who is currently or was previously targeting you.",
-        "Description": "Shows who is currently or was previously targeting you.",
-        "InternalName": "PeepingTom",
-        "AssemblyVersion": "1.8.0",
-        "RepoUrl": "https://github.com/Caraxi/PeepingTom",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "targeting",
-            "utility"
-        ],
-        "DalamudApiLevel": 14,
-        "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1771983083"
+        "LastUpdate": "1772616870"
     }
 ]
