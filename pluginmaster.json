@@ -5,7 +5,7 @@
         "Punchline": "不再被副本机制坑倒",
         "Description": "一组用于简化首领战处理的工具。",
         "InternalName": "BossModReborn",
-        "AssemblyVersion": "7.5.0.2",
+        "AssemblyVersion": "7.5.0.3",
         "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
@@ -21,7 +21,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     },
     {
         "Author": "veyn",
@@ -45,7 +45,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     },
     {
         "Author": "Anna, Maintained by Caraxi",
@@ -60,14 +60,14 @@
             "targeting",
             "utility"
         ],
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PeepingTom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     },
     {
         "Author": "shdwp, Avaflow, abashby, nebel",
@@ -88,19 +88,19 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     },
     {
         "Author": "UnknownX, Taurenkey",
         "Name": "ReActionEx",
         "Punchline": "QoL for the battle system.",
         "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
-        "Changelog": "- Add new target stacks.",
+        "Changelog": "- 7.4",
         "InternalName": "ReActionEx",
-        "AssemblyVersion": "1.0.1.0",
+        "AssemblyVersion": "1.0.0.10",
         "RepoUrl": "https://puni.sh/api/repository/taurenkey",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "IconUrl": "",
         "ImageUrls": [
             ""
@@ -111,7 +111,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     },
     {
         "Author": "ocealot",
@@ -133,6 +133,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/JobBars/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777547050"
+        "LastUpdate": "1777567646"
     }
 ]
