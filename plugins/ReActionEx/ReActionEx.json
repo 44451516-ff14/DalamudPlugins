@@ -2,14 +2,14 @@
   "Author": "UnknownX, Taurenkey",
   "Name": "ReActionEx",
   "InternalName": "ReActionEx",
-  "AssemblyVersion": "1.0.1.0",
+  "AssemblyVersion": "1.0.0.10",
   "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://puni.sh/api/repository/taurenkey",
   "CategoryTags": [
     "jobs"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
@@ -19,6 +19,6 @@
   ],
   "IconUrl": "",
   "Punchline": "QoL for the battle system.",
-  "Changelog": "- Add new target stacks.",
+  "Changelog": "- 7.4",
   "AcceptsFeedback": true
 }
