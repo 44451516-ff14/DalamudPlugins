@@ -98,9 +98,14 @@ def last_update(existing=None):
 
     for plugin in master:
         latest = os.path.join('plugins', plugin["InternalName"], 'latest.zip')
-        modified = git_last_update(latest)
-        if modified is None:
-            modified = existing.get(plugin["InternalName"], int(getmtime(latest)))
+        if git_has_changes(latest):
+            modified = int(getmtime(latest))
+        else:
+            modified = existing.get(plugin["InternalName"])
+            if modified is None:
+                modified = git_last_update(latest)
+            if modified is None:
+                modified = int(getmtime(latest))
 
         if 'LastUpdate' not in plugin or modified != int(plugin['LastUpdate']):
             plugin['LastUpdate'] = str(modified)
@@ -137,6 +142,19 @@ def git_last_update(path):
 
     timestamp = result.stdout.strip()
     return int(timestamp) if timestamp else None
+
+def git_has_changes(path):
+    try:
+        result = subprocess.run(
+            ['git', 'diff', '--quiet', '--', path],
+            check=False,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    except FileNotFoundError:
+        return False
+
+    return result.returncode == 1
 
 if __name__ == '__main__':
     main()
