@@ -29,7 +29,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "A bunch of utilities to simplify boss mechanics",
         "InternalName": "BossModReborn",
-        "AssemblyVersion": "7.5.0.17",
+        "AssemblyVersion": "7.5.0.18",
         "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
         "ApplicableVersion": "any",
         "Tags": [
@@ -54,7 +54,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778327387"
+        "LastUpdate": "1778375176"
     },
     {
         "Author": "ocealot",
