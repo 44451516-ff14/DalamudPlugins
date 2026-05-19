@@ -5,7 +5,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "A bunch of utilities to simplify bosses.",
         "InternalName": "BossMod",
-        "AssemblyVersion": "7.5.0.4",
+        "AssemblyVersion": "7.5.0.5",
         "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
@@ -21,7 +21,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1778807243"
+        "LastUpdate": "1779205398"
     },
     {
         "Author": "The Combat Reborn Team",
