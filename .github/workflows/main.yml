@@ -1,8 +1,6 @@
 name: Regenerate PluginMaster
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '37 * * * *'
   push:
     branches:
     - master

@@ -5,7 +5,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "A bunch of utilities to simplify bosses.",
         "InternalName": "BossMod",
-        "AssemblyVersion": "1.0.0.27",
+        "AssemblyVersion": "7.5.0.9",
         "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
@@ -21,7 +21,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossMod/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777909982"
+        "LastUpdate": "1782222995"
     },
     {
         "Author": "The Combat Reborn Team",
@@ -29,7 +29,7 @@
         "Punchline": "Don't fail at raid mechanics anymore",
         "Description": "A bunch of utilities to simplify boss mechanics",
         "InternalName": "BossModReborn",
-        "AssemblyVersion": "7.5.0.9",
+        "AssemblyVersion": "7.5.0.27",
         "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
         "ApplicableVersion": "any",
         "Tags": [
@@ -54,7 +54,7 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/BossModReborn/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777909982"
+        "LastUpdate": "1782218503"
     },
     {
         "Author": "ocealot",
@@ -82,22 +82,22 @@
         "Author": "shdwp, Avaflow, abashby, nebel",
         "Name": "Party Icons",
         "Punchline": "Replace names with job icons, raid role positions and more!",
-        "Description": "PartyIcons plugin",
+        "Description": "Adjusts player nameplates base on current content. For example you can display raid positions (that are assigned automatically by listening to the chat), job icons, or names with job icons.\n\nReverse-engineering effort achieved by authors of JobIcons: haplo, daemitus, Loskh, wozaiha, without them this plugin would not be possible!",
         "InternalName": "PartyIcons",
-        "AssemblyVersion": "1.2.3.2",
+        "AssemblyVersion": "1.2.3.4",
         "RepoUrl": "https://github.com/nebel/xivPartyIcons",
         "ApplicableVersion": "any",
         "Tags": [
             "UI"
         ],
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "DownloadLinkInstall": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/PartyIcons/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1766290249"
+        "LastUpdate": "1782223680"
     },
     {
         "Author": "Anna, Maintained by Caraxi",
@@ -126,12 +126,12 @@
         "Name": "ReActionEx",
         "Punchline": "QoL for the battle system.",
         "Description": "Improves aspects of the battle system with action stacks (like MOAction) and various QoL settings. Now with more devious features.",
-        "Changelog": "- 7.4",
+        "Changelog": "- Fix queue more crashing",
         "InternalName": "ReActionEx",
-        "AssemblyVersion": "1.0.0.11",
+        "AssemblyVersion": "1.0.1.2",
         "RepoUrl": "https://puni.sh/api/repository/taurenkey",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "IconUrl": "",
         "ImageUrls": [
             ""
@@ -142,6 +142,6 @@
         "DownloadLinkTesting": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadLinkUpdate": "https://github.com/44451516-ff14/DalamudPlugins/raw/master/plugins/ReActionEx/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1777651087"
+        "LastUpdate": "1777883909"
     }
 ]

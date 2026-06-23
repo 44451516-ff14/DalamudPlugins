@@ -16,6 +16,7 @@ GITHUB_API = "https://api.github.com"
 @dataclass(frozen=True)
 class PluginRelease:
     internal_name: str
+    source: str
     repo: str
     asset_name: str | None = None
     asset_prefix: str | None = None
@@ -23,14 +24,37 @@ class PluginRelease:
 
 PLUGINS = [
     PluginRelease(
+        internal_name="BossMod",
+        source="github_release",
+        repo="44451516/ffxiv_bossmod",
+        asset_name="latest.zip",
+    ),
+    PluginRelease(
         internal_name="BossModReborn",
+        source="github_release",
         repo="44451516-ff14/BossmodRebornCN",
         asset_prefix="BossModReborn-",
     ),
     PluginRelease(
-        internal_name="BossMod",
-        repo="44451516/ffxiv_bossmod",
-        asset_name="latest.zip",
+        internal_name="JobBars",
+        source="local",
+        repo="0ceal0t/JobBars",
+    ),
+    PluginRelease(
+        internal_name="PartyIcons",
+        source="github_release",
+        repo="44451516-ff14/xivPartyIcons",
+        asset_prefix="PartyIcons-",
+    ),
+    PluginRelease(
+        internal_name="PeepingTom",
+        source="local",
+        repo="Caraxi/PeepingTom",
+    ),
+    PluginRelease(
+        internal_name="ReActionEx",
+        source="dalamud_repo",
+        repo="https://puni.sh/api/repository/taurenkey",
     ),
 ]
 
@@ -46,11 +70,27 @@ def main():
 
     token = os.environ.get("GITHUB_TOKEN")
     for plugin in PLUGINS:
+        if plugin.source == "local":
+            print(f"{plugin.internal_name}: keeping local plugins/{plugin.internal_name}/latest.zip")
+            continue
+
+        asset = fetch_plugin_asset(plugin, token)
+        print(f"{plugin.internal_name}: {asset['version']} -> {asset['name']}")
+        if not args.dry_run:
+            sync_plugin_asset(plugin, asset, token if plugin.source == "github_release" else None)
+
+
+def fetch_plugin_asset(plugin, token=None):
+    if plugin.source == "github_release":
         release = fetch_latest_release(plugin.repo, token)
         asset = select_release_asset(plugin, release)
-        print(f"{plugin.internal_name}: {release.get('tag_name')} -> {asset['name']}")
-        if not args.dry_run:
-            sync_plugin_asset(plugin, asset, token)
+        asset["version"] = release.get("tag_name")
+        return asset
+
+    if plugin.source == "dalamud_repo":
+        return fetch_dalamud_repo_asset(plugin, token)
+
+    raise ValueError(f"Unknown sync source {plugin.source} for {plugin.internal_name}")
 
 
 def fetch_latest_release(repo, token=None):
@@ -73,6 +113,28 @@ def select_release_asset(plugin, release):
             return asset
 
     raise ValueError(f"No release zip asset for {plugin.internal_name}")
+
+
+def fetch_dalamud_repo_asset(plugin, token=None):
+    with open_url(plugin.repo, token) as response:
+        plugins = json.loads(response.read().decode("utf-8"))
+
+    for manifest in plugins:
+        if manifest.get("InternalName") != plugin.internal_name:
+            continue
+
+        download_url = manifest.get("DownloadLinkInstall") or manifest.get("DownloadLinkUpdate")
+        if not download_url:
+            raise ValueError(f"No download link for {plugin.internal_name} in {plugin.repo}")
+
+        return {
+            "name": f"{plugin.internal_name}-{manifest.get('AssemblyVersion', 'latest')}.zip",
+            "browser_download_url": download_url,
+            "updated_at": manifest.get("LastUpdate"),
+            "version": manifest.get("AssemblyVersion"),
+        }
+
+    raise ValueError(f"No manifest for {plugin.internal_name} in {plugin.repo}")
 
 
 def sync_plugin_asset(plugin, asset, token=None):
@@ -118,7 +180,10 @@ def set_release_mtime(path, asset):
     if not timestamp:
         return
 
-    mtime = int(datetime.fromisoformat(timestamp.replace("Z", "+00:00")).timestamp())
+    if isinstance(timestamp, int) or str(timestamp).isdigit():
+        mtime = int(timestamp)
+    else:
+        mtime = int(datetime.fromisoformat(timestamp.replace("Z", "+00:00")).timestamp())
     os.utime(path, (mtime, mtime))
 
 
